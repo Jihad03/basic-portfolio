@@ -51,7 +51,7 @@ header{
   background-color: #FFF8F3;
   background-image: url('images/developer.png'), url('images/header_bg.png');
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 39px 23px, bottom right;
   padding-top:50px;
 }
 
@@ -291,4 +291,25 @@ form input{
   margin-bottom: 24px;
   border: none;
   border-radius: 5px;
+  color: #757575;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+form textarea{
+  height: 180px;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+form input[type=submit]{
+  width: 150px;
+  height: 64px;
 }
